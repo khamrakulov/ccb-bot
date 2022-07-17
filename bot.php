@@ -2,7 +2,7 @@
 include "Telegram.php";
 include "functions.php";
 
-define("BOT_TOKEN", "YOUR TOKEN HERE");
+define("BOT_TOKEN", "5278678084:AAFrgy4RUcbv_gI5lH0fydL5whpI4f2O3n8");
 $telegram = new Telegram(BOT_TOKEN);
 
 $chat_id = $telegram->ChatID();
